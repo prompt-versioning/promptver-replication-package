@@ -1,0 +1,6 @@
+{inpt} is the question. Confirm again: What is the capital of France?
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?

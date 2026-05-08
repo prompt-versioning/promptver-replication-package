@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: "PROMPTVER: Semantic Versioning for Prompt Edits (Replication Package)"
+type: dataset
+authors:
+  - family-names: "Anonymous"
+message: "If you use this artifact, please cite the associated paper."

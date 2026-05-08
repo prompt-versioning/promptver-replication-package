@@ -1,0 +1,49 @@
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Rephrase: consumer electronics giant headquartered in Cupertino.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?

@@ -1,0 +1,6 @@
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Return your answer as JSON only, conforming exactly to the output format below.
+Respond with one JSON object (no other text). It must validate against JSON Schema 2020-12 and include a non-null nested 'proof' tree of depth at least 6 via recursive $ref to "#/definitions/node": {"type":"object","required":["label","proof"],"properties":{"label":{"type":"string"},"proof":{"$ref":"#/definitions/node"}},"definitions":{"node":{"type":"object","required":["next","tag"],"properties":{"next":{"oneOf":[{"$ref":"#/definitions/node"},{"type":"null"}]},"tag":{"type":"string"}}}}}
+
+Question to classify:
+What is the capital of France?

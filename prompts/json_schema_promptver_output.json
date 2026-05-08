@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "enum": [
+        "PATCH",
+        "MINOR",
+        "MAJOR"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "label"
+  ]
+}

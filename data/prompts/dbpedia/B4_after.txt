@@ -1,0 +1,8 @@
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Max 1 word answer.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?

@@ -1,0 +1,136 @@
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- The final answer must include at least five words explaining why you chose that class.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?

@@ -1,0 +1,6 @@
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+When sketching, wrap scratch work in <csv>...</csv> tags before the final answer.
+Return JSON: {"class": "<LABEL>"} (machine-readable).
+
+Question to classify:
+What is the capital of France?

@@ -1,0 +1,2650 @@
+edit_id,task,dataset,group,operator_ids,before_prompt,after_prompt,changed_component,expected_contract_change,notes
+A1,classification,TREC,A,E7,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",examples,no,Add 1 example/class
+A1,classification,DBPedia,A,E7,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",examples,no,Add 1 example/class
+A2,classification,TREC,A,E7,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",examples,no,Add 3 examples/class
+A2,classification,DBPedia,A,E7,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",examples,no,Add 3 examples/class
+A3,classification,TREC,A,E9,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",examples,no,Remove all examples
+A3,classification,DBPedia,A,E9,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",examples,no,Remove all examples
+A4,classification,TREC,A,E1,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value). Think step by step, then on a new line output 'Answer: <LABEL>'.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Add CoT instruction
+A4,classification,DBPedia,A,E1,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork. Think step by step, then on a new line output 'Answer: <LABEL>'.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Add CoT instruction
+A5,classification,TREC,A,E3,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value). Think step by step, then on a new line output 'Answer: <LABEL>'.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Remove CoT
+A5,classification,DBPedia,A,E3,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork. Think step by step, then on a new line output 'Answer: <LABEL>'.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Remove CoT
+B1,classification,TREC,B,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Be concise.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,"Add ""Be concise."""
+B1,classification,DBPedia,B,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Be concise.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,"Add ""Be concise."""
+B2,classification,TREC,B,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Always respond in French.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,"Add ""Respond in French."""
+B2,classification,DBPedia,B,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Always respond in French.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,"Add ""Respond in French."""
+B3,classification,TREC,B,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Only if 100% certain, else N/A.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Add certainty / N/A rule
+B3,classification,DBPedia,B,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Only if 100% certain, else N/A.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Add certainty / N/A rule
+B4,classification,TREC,B,E5,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Max 1 word answer.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Max 1 word answer
+B4,classification,DBPedia,B,E5,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Max 1 word answer.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Max 1 word answer
+B5,classification,TREC,B,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Be concise.
+- Be detailed.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Contradictory constraints
+B5,classification,DBPedia,B,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Be concise.
+- Be detailed.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Contradictory constraints
+B6,classification,TREC,B,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- ONLY output the class label.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,ONLY output class label
+B6,classification,DBPedia,B,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- ONLY output the class label.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,ONLY output class label
+B7,classification,TREC,B,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- If the text could refer to an entity or a description, prefer the entity label.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Entity/description hint
+B7,classification,DBPedia,B,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- If the text could refer to an entity or a description, prefer the entity label.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Entity/description hint
+C1,classification,TREC,C,E15,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Categorize the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Synonym swap directive
+C1,classification,DBPedia,C,E15,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Categorize the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,no,Synonym swap directive
+C2,classification,TREC,C,E15,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value). You are a text classifier.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Sentence restructure
+C2,classification,DBPedia,C,E15,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Assign the text below to exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Output only the category label on a single line.
+
+Text to classify:
+What is the capital of France?",wording,no,Sentence restructure
+C3,classification,TREC,C,E17,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Number your reasoning steps as 1. 2. 3. before the final line.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Bullet to numbered formatting
+C3,classification,DBPedia,C,E17,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Number your reasoning steps as 1. 2. 3. before the final line.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,no,Bullet to numbered formatting
+C4,classification,TREC,C,E18,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: NUM (numeric value), LOC (location), HUM (human), DESC (description and abstract concept), ENTY (entity), ABBR (abbreviation).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Reverse class order in directive
+C4,classification,DBPedia,C,E18,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: WrittenWork, Film, Album, Plant, Animal, Village, NaturalPlace, Building, MeanOfTransportation, OfficeHolder, Athlete, Artist, EducationalInstitution, Company.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,no,Reverse class order in directive
+C5,classification,TREC,C,E20,"You are a text classifer. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Fix deliberate typo
+C5,classification,DBPedia,C,E20,"Classify the following text into exactly one of these 14 categores: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,no,Fix deliberate typo
+C6,classification,TREC,C,E16,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for? (rephrased)
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Rephrase one example input
+C6,classification,DBPedia,C,E16,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics. (rephrased)
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,no,Rephrase one example input
+D1,classification,TREC,D,E11,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Return JSON: {""class"": ""<LABEL>""}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Output JSON class field
+D1,classification,DBPedia,D,E11,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Return JSON: {""class"": ""<LABEL>""}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Output JSON class field
+D2,classification,TREC,D,E11,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output: ""label: <LABEL> | explanation: <ONE_SENTENCE>""
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Label plus explanation format
+D2,classification,DBPedia,D,E11,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output: ""label: <LABEL> | explanation: <ONE_SENTENCE>""
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Label plus explanation format
+D3,classification,TREC,D,E10,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+JSON schema: {""type"":""object"",""properties"":{""label"":{""type"":""string""}},""required"":[""label""]}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Add JSON schema block
+D3,classification,DBPedia,D,E10,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+JSON schema: {""type"":""object"",""properties"":{""label"":{""type"":""string""}},""required"":[""label""]}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Add JSON schema block
+D4,classification,TREC,D,E11,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Return JSON: {""class"": ""<LABEL>""}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,JSON output with stale examples
+D4,classification,DBPedia,D,E11,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Return JSON: {""class"": ""<LABEL>""}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,JSON output with stale examples
+E1-r,classification,TREC,E,E12,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a helpful assistant.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Add helpful assistant role
+E1-r,classification,DBPedia,E,E12,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a helpful assistant.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Add helpful assistant role
+E2-r,classification,TREC,E,E12,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a domain expert librarian.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Add librarian role
+E2-r,classification,DBPedia,E,E12,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a domain expert librarian.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Add librarian role
+E3-r,classification,TREC,E,E12,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a 5-year-old child.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Child persona
+E3-r,classification,DBPedia,E,E12,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a 5-year-old child.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Child persona
+E4-r,classification,TREC,E,E13,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a confused intern.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Librarian to intern
+E4-r,classification,DBPedia,E,E13,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a confused intern.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Librarian to intern
+E5-r,classification,TREC,E,E14,"You are a domain expert librarian.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Remove role
+E5-r,classification,DBPedia,E,E14,"You are a domain expert librarian.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Remove role
+E6-r,classification,TREC,E,E12,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a strict compliance officer.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Compliance officer role
+E6-r,classification,DBPedia,E,E12,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a strict compliance officer.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Compliance officer role
+E7-r,classification,TREC,E,E12,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a patient teacher.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Teacher persona
+E7-r,classification,DBPedia,E,E12,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a patient teacher.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Teacher persona
+E8-r,classification,TREC,E,E12,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a news journalist.
+
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",role,no,Journalist persona
+E8-r,classification,DBPedia,E,E12,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","You are a news journalist.
+
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",role,no,Journalist persona
+F1,classification,TREC,F,E2,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","Translate the input to Spanish, then classify it.
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Translate then classify
+F1,classification,DBPedia,F,E2,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Translate the input to Spanish, then classify it.
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Translate then classify
+F2,classification,TREC,F,E6,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Be concise.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,no,Remove Be concise
+F2,classification,DBPedia,F,E6,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Be concise.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,no,Remove Be concise
+F3,classification,TREC,F,E8,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What's CPU shorthand for?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",examples,no,Tweak example input wording
+F3,classification,DBPedia,F,E8,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Rephrase: consumer electronics giant headquartered in Cupertino.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",examples,no,Tweak example input wording
+F4,classification,TREC,F,E19,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the input into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,no,Generalize wording
+F4,classification,DBPedia,F,E19,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the input into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,no,Generalize wording
+G-X4,classification,TREC,G,E8,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: An abbreviation is a shortened form of a word or phrase.
+
+Input: What is the full form of DNA?
+Output: The speed of light in vacuum is a physical constant used in physics.
+
+Input: What does UN mean?
+Output: Democracy is a system of government where citizens vote on representatives.
+
+Input: What is the speed of light?
+Output: Alexander Graham Bell is credited with patenting the telephone.
+
+Input: What is photosynthesis?
+Output: Paris is the capital and largest city of France.
+
+Input: What is the boiling point of water?
+Output: There are 5280 feet in one mile.
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",examples,yes,Example contradicts directive
+G-X4,classification,DBPedia,G,E8,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Apple Inc. is known for consumer hardware and software products.
+
+Input: Microsoft is a software company.
+Output: MIT is a private research university in Cambridge, Massachusetts.
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Pablo Picasso was a Spanish painter and sculptor.
+
+Input: MIT is a research university in Cambridge.
+Output: Serena Williams has won multiple Grand Slam singles titles.
+
+Input: Harvard is an Ivy League school.
+Output: Abraham Lincoln served as the 16th president of the United States.
+
+Input: Stanford is located in California.
+Output: The Boeing Company designs and manufactures jet aircraft.
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",examples,yes,Example contradicts directive
+G-X5,classification,TREC,G,E1,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Return exactly one JSON object: {""label"": ""<CATEGORY>""} with no other text.
+
+Question to classify:
+What is the capital of France?","Think step by step and show your reasoning before the answer.
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Return exactly one JSON object: {""label"": ""<CATEGORY>""} with no other text.
+
+Question to classify:
+What is the capital of France?",unknown,yes,CoT conflicts JSON-only O
+G-X5,classification,DBPedia,G,E1,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Return exactly one JSON object: {""label"": ""<CATEGORY>""} with no other text.
+
+Question to classify:
+What is the capital of France?","Think step by step and show your reasoning before the answer.
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Return exactly one JSON object: {""label"": ""<CATEGORY>""} with no other text.
+
+Question to classify:
+What is the capital of France?",unknown,yes,CoT conflicts JSON-only O
+G-X7,classification,TREC,G,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- The final answer must include at least five words explaining why you chose that class.
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,yes,Constraint violated by examples
+G-X7,classification,DBPedia,G,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- The final answer must include at least five words explaining why you chose that class.
+
+Examples:
+Input: Apple Inc. designs consumer electronics.
+Output: Company
+
+Input: Microsoft is a software company.
+Output: Company
+
+Input: Toyota manufactures vehicles worldwide.
+Output: Company
+
+Input: MIT is a research university in Cambridge.
+Output: EducationalInstitution
+
+Input: Harvard is an Ivy League school.
+Output: EducationalInstitution
+
+Input: Stanford is located in California.
+Output: EducationalInstitution
+
+Input: Picasso was a Spanish painter.
+Output: Artist
+
+Input: Taylor Swift is a singer-songwriter.
+Output: Artist
+
+Input: Miles Davis was a jazz trumpeter.
+Output: Artist
+
+Input: Serena Williams won multiple Grand Slam titles.
+Output: Athlete
+
+Input: Michael Jordan played professional basketball.
+Output: Athlete
+
+Input: Usain Bolt set world records in sprinting.
+Output: Athlete
+
+Input: Abraham Lincoln was the 16th U.S. president.
+Output: OfficeHolder
+
+Input: Angela Merkel served as German chancellor.
+Output: OfficeHolder
+
+Input: Nelson Mandela was president of South Africa.
+Output: OfficeHolder
+
+Input: The Boeing 747 is a wide-body jet airliner.
+Output: MeanOfTransportation
+
+Input: The Shinkansen is a high-speed train in Japan.
+Output: MeanOfTransportation
+
+Input: The Titanic was a passenger ship.
+Output: MeanOfTransportation
+
+Input: The Empire State Building is in Manhattan.
+Output: Building
+
+Input: The Colosseum is an ancient amphitheater in Rome.
+Output: Building
+
+Input: The Sydney Opera House has distinctive shell roofs.
+Output: Building
+
+Input: The Grand Canyon is a steep-sided canyon.
+Output: NaturalPlace
+
+Input: The Sahara is a large desert.
+Output: NaturalPlace
+
+Input: Lake Baikal is the deepest freshwater lake.
+Output: NaturalPlace
+
+Input: Kyoto is a city known for temples.
+Output: Village
+
+Input: Stratford-upon-Avon is associated with Shakespeare.
+Output: Village
+
+Input: Avignon hosted popes in the 14th century.
+Output: Village
+
+Input: The giant panda eats bamboo.
+Output: Animal
+
+Input: The monarch butterfly migrates long distances.
+Output: Animal
+
+Input: The blue whale is the largest animal.
+Output: Animal
+
+Input: Oak trees produce acorns.
+Output: Plant
+
+Input: Bamboo grows very quickly.
+Output: Plant
+
+Input: The rose is a common ornamental flower.
+Output: Plant
+
+Input: Abbey Road is a famous Beatles album.
+Output: Album
+
+Input: Kind of Blue is a Miles Davis record.
+Output: Album
+
+Input: Thriller is one of the best-selling albums.
+Output: Album
+
+Input: Casablanca is a classic romance film.
+Output: Film
+
+Input: The Godfather depicts an organized crime family.
+Output: Film
+
+Input: Spirited Away is a Studio Ghibli animated film.
+Output: Film
+
+Input: Pride and Prejudice is a novel by Jane Austen.
+Output: WrittenWork
+
+Input: 1984 is a dystopian novel by Orwell.
+Output: WrittenWork
+
+Input: Hamlet is a tragedy by Shakespeare.
+Output: WrittenWork
+
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,yes,Constraint violated by examples
+G-X9,classification,TREC,G,E10,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Return your answer as JSON only, conforming exactly to the output format below.
+Respond with one JSON object (no other text). It must validate against JSON Schema 2020-12 and include a non-null nested 'proof' tree of depth at least 6 via recursive $ref to ""#/definitions/node"": {""type"":""object"",""required"":[""label"",""proof""],""properties"":{""label"":{""type"":""string""},""proof"":{""$ref"":""#/definitions/node""}},""definitions"":{""node"":{""type"":""object"",""required"":[""next"",""tag""],""properties"":{""next"":{""oneOf"":[{""$ref"":""#/definitions/node""},{""type"":""null""}]},""tag"":{""type"":""string""}}}}}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Recursive JSON schema stress (X9)
+G-X9,classification,DBPedia,G,E10,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Return your answer as JSON only, conforming exactly to the output format below.
+Respond with one JSON object (no other text). It must validate against JSON Schema 2020-12 and include a non-null nested 'proof' tree of depth at least 6 via recursive $ref to ""#/definitions/node"": {""type"":""object"",""required"":[""label"",""proof""],""properties"":{""label"":{""type"":""string""},""proof"":{""$ref"":""#/definitions/node""}},""definitions"":{""node"":{""type"":""object"",""required"":[""next"",""tag""],""properties"":{""next"":{""oneOf"":[{""$ref"":""#/definitions/node""},{""type"":""null""}]},""tag"":{""type"":""string""}}}}}
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Recursive JSON schema stress (X9)
+G-G1,classification,TREC,G,E4,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- Answer using at most 10 words.
+- Provide a detailed paragraph with at least 50 words.
+- Respond only in French.
+- Respond only in English.
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",unknown,yes,Unsatisfiable stacked constraints
+G-G1,classification,DBPedia,G,E4,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+
+Constraints:
+- Answer using at most 10 words.
+- Provide a detailed paragraph with at least 50 words.
+- Respond only in French.
+- Respond only in English.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",unknown,yes,Unsatisfiable stacked constraints
+G-C2,classification,TREC,G,E15,"What is the capital of France? is the question. Confirm again: What is the capital of France?
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?","{inpt} is the question. Confirm again: What is the capital of France?
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?",wording,yes,Template mismatch {input}/{inpt}
+G-C2,classification,DBPedia,G,E15,"What is the capital of France? is the question. Confirm again: What is the capital of France?
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?","{inpt} is the question. Confirm again: What is the capital of France?
+Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+Output only the category label on a single line.
+
+Question to classify:
+What is the capital of France?",wording,yes,Template mismatch {input}/{inpt}
+G-C3,classification,TREC,G,E11,"You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+When sketching, wrap scratch work in <csv>...</csv> tags before the final answer.
+Output one CSV line containing only the category label.
+
+Question to classify:
+What is the capital of France?","You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+When sketching, wrap scratch work in <csv>...</csv> tags before the final answer.
+Return JSON: {""class"": ""<LABEL>""} (machine-readable).
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Schema drift with stale tag
+G-C3,classification,DBPedia,G,E11,"Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+When sketching, wrap scratch work in <csv>...</csv> tags before the final answer.
+Output one CSV line containing only the category label.
+
+Question to classify:
+What is the capital of France?","Classify the following text into exactly one of these 14 categories: Company, EducationalInstitution, Artist, Athlete, OfficeHolder, MeanOfTransportation, Building, NaturalPlace, Village, Animal, Plant, Album, Film, WrittenWork.
+When sketching, wrap scratch work in <csv>...</csv> tags before the final answer.
+Return JSON: {""class"": ""<LABEL>""} (machine-readable).
+
+Question to classify:
+What is the capital of France?",output_schema,yes,Schema drift with stale tag

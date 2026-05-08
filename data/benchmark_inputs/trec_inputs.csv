@@ -1,0 +1,31 @@
+input_id,dataset,input_text,gold_label_or_reference,split
+trec_10,TREC,What city had a world fair in 1900 ?,LOC,eval
+trec_12,TREC,What is the average weight of a Yellow Labrador ?,NUM,eval
+trec_17,TREC,Who developed the vaccination against polio ?,HUM,eval
+trec_41,TREC,What is Teflon ?,DESC,eval
+trec_94,TREC,What is the oldest university in the US ?,HUM,eval
+trec_99,TREC,What is the longest major league baseball-winning streak ?,ENTY,eval
+trec_112,TREC,What is the length of the coastline of the state of Alaska ?,NUM,eval
+trec_135,TREC,What is the major fault line near Kentucky ?,ENTY,eval
+trec_181,TREC,What is neuropathy ?,DESC,eval
+trec_215,TREC,What is the most frequently spoken language in the Netherlands ?,ENTY,eval
+trec_231,TREC,What is the name of the leader of Ireland ?,HUM,eval
+trec_251,TREC,What are the twin cities ?,LOC,eval
+trec_261,TREC,Who was the first Prime Minister of Canada ?,HUM,eval
+trec_279,TREC,What is a mirror made out of ?,ENTY,eval
+trec_292,TREC,What is the life expectancy of a dollar bill ?,NUM,eval
+trec_302,TREC,What is solar wind ?,DESC,eval
+trec_312,TREC,How many hearts does an octopus have ?,NUM,eval
+trec_319,TREC,What is the brightest star ?,LOC,eval
+trec_322,TREC,What is TMJ ?,ABBR,eval
+trec_325,TREC,What does the technical term ISDN mean ?,ABBR,eval
+trec_376,TREC,Where do apple snails live ?,LOC,eval
+trec_379,TREC,What is an annuity ?,DESC,eval
+trec_400,TREC,What is Shakespeare 's nickname ?,HUM,eval
+trec_401,TREC,What is the heaviest naturally occurring element ?,ENTY,eval
+trec_403,TREC,What does the acronym NASA stand for ?,ABBR,eval
+trec_406,TREC,What is carbon dioxide ?,DESC,eval
+trec_413,TREC,What does NASA stand for ?,ABBR,eval
+trec_438,TREC,What does the abbreviation SOS mean ?,ABBR,eval
+trec_442,TREC,Which country has the most water pollution ?,LOC,eval
+trec_463,TREC,What is Susan B. Anthony 's birthday ?,NUM,eval

@@ -1,0 +1,64 @@
+You are a text classifier. Classify the following question into exactly one of these six categories: ABBR (abbreviation), ENTY (entity), DESC (description and abstract concept), HUM (human), LOC (location), NUM (numeric value).
+
+Constraints:
+- The final answer must include at least five words explaining why you chose that class.
+
+Examples:
+Input: What does CPU stand for?
+Output: ABBR
+
+Input: What is the full form of DNA?
+Output: ABBR
+
+Input: What does UN mean?
+Output: ABBR
+
+Input: What is the speed of light?
+Output: ENTY
+
+Input: What is photosynthesis?
+Output: ENTY
+
+Input: What is the boiling point of water?
+Output: ENTY
+
+Input: What is the theory of relativity?
+Output: DESC
+
+Input: What is democracy?
+Output: DESC
+
+Input: What is recursion in programming?
+Output: DESC
+
+Input: Who invented the telephone?
+Output: HUM
+
+Input: Who wrote Hamlet?
+Output: HUM
+
+Input: Who was the first person on the Moon?
+Output: HUM
+
+Input: Where is the Eiffel Tower?
+Output: LOC
+
+Input: Where is Mount Everest?
+Output: LOC
+
+Input: Where is the Amazon River?
+Output: LOC
+
+Input: How many feet are in a mile?
+Output: NUM
+
+Input: What is two plus two?
+Output: NUM
+
+Input: How many sides does a triangle have?
+Output: NUM
+
+Output only the category label on a single line. No explanation.
+
+Question to classify:
+What is the capital of France?

@@ -1,0 +1,8 @@
+group_id,group_name,description,operators_covered
+A,surface and exemplar density,Example density and surface-level prompt changes.,"E7,E9"
+B,constraint addition/removal,Constraint tweaks including output style and limits.,"E4,E5,E6"
+C,persona and paraphrase,Directive wording and textual structure edits.,"E15,E16,E17,E18,E19,E20"
+D,format/schema,Output schema and parser-visible formatting changes.,"E10,E11"
+E,example/role combinations,Role/persona edits.,"E12,E13,E14"
+F,cross-component edits,Cross-component edits across role/directive/examples.,"E1,E2,E3,E8"
+G,adversarial consistency-check edits,Adversarial edits for consistency and contract violations.,"E1,E4,E8,E10,E11,E15"
